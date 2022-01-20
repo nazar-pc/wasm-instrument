@@ -23,4 +23,8 @@ wabt = "0.10"
 [features]
 default = ["std"]
 std = ["parity-wasm/std"]
+atomics = ["parity-wasm/atomics"]
+bulk = ["parity-wasm/bulk"]
+multi_value = ["parity-wasm/multi_value"]
 sign_ext = ["parity-wasm/sign_ext"]
+simd = ["parity-wasm/simd"]
